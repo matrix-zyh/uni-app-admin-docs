@@ -1,0 +1,29 @@
+{
+	"name": "uni-app-admin-docs",
+	"version": "1.0.0",
+	"description": "Build UniApp Matrix Admin documentation Chinese translation",
+	"repository": "https://github.com/matrix-zyh/uni-app-admin-docs",
+	"author": "Matrix <matrix.zyh@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"devDependencies": {
+		"chalk": "^4.1.0",
+		"gray-matter": "^4.0.3",
+		"lodash": "^4.17.21",
+		"vitepress": "^0.19.2",
+		"yorkie": "^2.0.0"
+	},
+	"scripts": {
+		"dev": "vitepress dev .",
+		"build": "node ./scripts/build.js",
+		"serve": "vitepress serve .",
+		"deploy:github": "gh-pages -d .vitepress/dist -b gh-pages -r https://github.com/matrix-zyh/uni-app-admin-docs.git",
+    "deploy:gitee": "gh-pages -d .vitepress/dist -b pages -r https://gitee.com/matrix-zyh/uni-app-admin-docs.git"
+	},
+	"gitHooks": {
+		"commit-msg": "node scripts/verifyCommit.js"
+	},
+	"dependencies": {
+		"gh-pages": "^3.2.3"
+	}
+}
