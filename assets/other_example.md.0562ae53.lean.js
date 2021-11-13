@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as i,d}from"./app.28458000.js";const p='{"title":"示例","description":"","frontmatter":{"title":"示例","lang":"zh-CN"},"headers":[],"relativePath":"other/example.md","lastUpdated":1636819434630}',a={},r=[d('',3)];var s=e(a,[["render",function(e,d,p,a,s,o){return i(),t("div",null,r)}]]);export default s;export{p as __pageData};

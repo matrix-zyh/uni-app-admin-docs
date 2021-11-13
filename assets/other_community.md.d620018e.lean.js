@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r,d as a}from"./app.28458000.js";const i='{"title":"贡献","description":"","frontmatter":{"title":"贡献","lang":"zh-CN"},"headers":[],"relativePath":"other/community.md","lastUpdated":1636812404329}',n={},l=[a('',3)];var p=e(n,[["render",function(e,a,i,n,p,s){return r(),t("div",null,l)}]]);export default p;export{i as __pageData};

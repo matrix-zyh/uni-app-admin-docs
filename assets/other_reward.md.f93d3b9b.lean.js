@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as i,d as r}from"./app.28458000.js";const a='{"title":"打赏","description":"","frontmatter":{"title":"打赏","lang":"zh-CN"},"headers":[],"relativePath":"other/reward.md","lastUpdated":1636819412654}',d={},h=[r('',3)];var l=t(d,[["render",function(t,r,a,d,l,n){return i(),e("div",null,h)}]]);export default l;export{a as __pageData};
